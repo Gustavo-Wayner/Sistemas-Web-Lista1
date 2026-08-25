@@ -1,7 +1,7 @@
 function consultarEstoque(produto) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      let quant = Math.floor(Math.random() * 20);
+      let quant = Math.floor(Math.random() * 21);
 
       if (quant > 0) {
         resolve(`Produto: ${produto};\nQuantidade: ${quant};`);
